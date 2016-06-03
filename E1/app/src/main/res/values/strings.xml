@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Form</string>
+
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="information">Information %d</string>
+
+</resources>
