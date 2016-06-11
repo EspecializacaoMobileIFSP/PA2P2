@@ -1,0 +1,64 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context="br.edu.ifspsaocarlos.programacaoConcorrente.view.LoginFragment">
+
+    <EditText
+        android:id="@+id/name_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:layout_margin="4dp"/>
+
+    <EditText
+        android:id="@+id/username_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:layout_margin="4dp"/>
+
+    <EditText
+        android:id="@+id/pass_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_margin="4dp"/>
+
+    <EditText
+        android:id="@+id/confirm_pass_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="confirm password"
+        android:layout_margin="4dp"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="@color/colorAccent"
+        android:text="Login"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:text="ID"/>
+
+    <TextView
+        android:id="@+id/id_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:visibility="gone"/>
+
+</LinearLayout>
