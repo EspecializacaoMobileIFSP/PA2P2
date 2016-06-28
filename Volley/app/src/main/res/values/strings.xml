@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Volley Exercise</string>
+    <string name="texto_informacao">Clique no botão abaixo para preencher a tela com informações adquiridas nos Web Services</string>
+    <string name="texto_botao">Acessar Web Services</string>
+    <string name="buscatexto">http://www.nobile.pro.br/sdm/texto.php</string>
+    <string name="buscadata">http://www.nobile.pro.br/sdm/data.php</string>
+    <string name="urltexto">Digite a URL do Buscar Texto</string>
+    <string name="urldata">Digite a URL do Buscar Data</string>
+    <string name="error_msg">Ops, infelizmente deu erro no processamento de sua solicitação!</string>
+</resources>
